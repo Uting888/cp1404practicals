@@ -14,5 +14,6 @@ for _ in range(number_of_picks):
         if number not in quick_pick:
             quick_pick.append(number)
     quick_pick.sort()
+
     # Print numbers aligned in 2-character wide fields
     print(" ".join(f"{num:2}" for num in quick_pick))
